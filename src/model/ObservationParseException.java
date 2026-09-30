@@ -1,6 +1,5 @@
 package model;
 
-//собственное исключение с информацией о строке
 public class ObservationParseException extends Exception {
 
     private final int lineNumber;
